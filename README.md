@@ -7,7 +7,6 @@ This project involves the analysis of YouTube data, focusing on various aspects 
 
 - Installation
 - Analysis Steps
-  - Checking for Missing Values
   - Sentiment Analysis
   - Wordcloud Analysis
   - Emoji Analysis
@@ -31,15 +30,23 @@ This project involves the analysis of YouTube data, focusing on various aspects 
 - plotly
 
   # Analysis Steps
-
-  ### Checking for Missing Values
-  Identified and handled missing values in the dataset to ensure data integrity
   
   ### Sentiment Analysis
   Utilized TextBlob to perform sentiment analysis on comments, categorizing them as positive (polarity 1) or negative (polarity -1)
   
+  ```bash
+  !pip install textblob
+  from textblob import TextBlob
+  ```
+  
   ### Wordcloud Analysis
-  Generated word clouds to visualize the most frequently occurring words in the dataset
+  Generated word clouds to visualize the most frequently occurring words in the dataset. This provides a visually appealing representation of the most frequently occurring words in a dataset and understanding the audience mindset
+
+  ### Positive Comments
+
+  ### Positive Comments
+  
+  
 
   ### Emoji Analysis
   Identified and analyzed the usage of emojis in comments to gain insights into audience reactions
@@ -65,8 +72,19 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   ### Punctuation Analysis
   Investigated whether the presence of punctuations in titles and tags had any correlation with views, likes, dislikes, and comments
 
+  # Usage
+
+  Clone the repository:
+
+  ```bash
+  git clone https://github.com/your-username/your-repository.git
+  cd your-repository
+  ```
+  Latest Version of Anaconda software environment is required!
 
 
+ # License
+ This project is licensed under the MIT License.
 
 
 
