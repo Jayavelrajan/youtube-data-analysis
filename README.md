@@ -69,10 +69,11 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   ```
 
   ### Most Liked Category
-  Determined the category that received the highest number of likes, providing insights into audience preferences
+  Determined the category that received the highest number of likes, providing insights into audience preferences. What category in Youtube has more engagement? and Which has more likes with it? These questions are 
+  answered using this boxplot.
   
   ### Audience Engagement
-  Explored the engagement metrics to understand how viewers interacted with the content
+  Explored the engagement metrics to understand how viewers interacted with the content and answered using this boxplot.
   
   ### Trending Videos by Channel
   Identified channels with the largest number of trending videos, revealing trends in content creators' success
