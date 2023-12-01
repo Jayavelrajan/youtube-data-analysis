@@ -44,7 +44,7 @@ This project involves the analysis of YouTube data, focusing on various aspects 
 
   ### Positive Comments
 
-  ### Positive Comments
+  ### Negative Comments
   
 
   ### Emoji Analysis
