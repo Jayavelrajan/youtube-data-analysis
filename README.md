@@ -76,13 +76,17 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   Explored the engagement metrics to understand how viewers interacted with the content and answered using this boxplot.
 
   ### Relationship between Views & Likes
-  Analyzed the correlation between views and likes to uncover patterns in audience behavior is visualised in this regression plot
+  Analyzed the correlation between views and likes to uncover patterns in audience behavior is visualised in this regression plot and Heatmap
   
   ### Trending Videos by Channel
-  Identified channels with the largest number of trending videos, revealing trends in content creators' success
+  Identified channels with the largest number of trending videos, revealing trends in content creators' success, using this BarGraph
   
   ### Punctuation Analysis
-  Investigated whether the presence of punctuations in titles and tags had any correlation with views, likes, dislikes, and comments
+  Investigated whether the presence of punctuations in titles and tags had any correlation with views, likes, dislikes, and comments using these boxplot
+
+  - Relation between Punctutations and Views
+  - 
+  - Relation between Punctutations and likes
 
   # Usage
 
