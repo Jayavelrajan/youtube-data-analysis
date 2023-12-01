@@ -50,13 +50,24 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   ### Emoji Analysis
   Identified and analyzed the usage of emojis in comments to gain insights into audience reactions. Also, it provides insights into audience emotions, enhancing understanding of sentiment and engagement in content and 
   how frequently and common the emojis are used.
-
-  ### Cleaning Repeated Values
-  Removed duplicate entries to enhance the accuracy of the analysis
   
   ### Exporting Data
-  Exported the cleaned data into CSV, JSON, and a database for further use
-  
+  Exported the cleaned data into CSV, JSON, and a database for further use.
+  #### To CSV:
+  ```bash
+  full_df[0:1000].to_csv(r'youtube_sample.csv' , index=False)
+  ```
+  #### To JSON:
+  ```bash
+  full_df[0:1000].to_json(r'youtube_sample.json')
+  ```
+  #### To Sqlite DB:
+  ```bash
+  from sqlalchemy import create_engine
+  engine = create_engine(r'sqlite:///youtube_sample.sqlite')
+  full_df.to_sql('Users' , con=engine , if_exists='append')
+  ```
+
   ### Most Liked Category
   Determined the category that received the highest number of likes, providing insights into audience preferences
   
