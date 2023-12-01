@@ -46,10 +46,10 @@ This project involves the analysis of YouTube data, focusing on various aspects 
 
   ### Positive Comments
   
-  
 
   ### Emoji Analysis
-  Identified and analyzed the usage of emojis in comments to gain insights into audience reactions
+  Identified and analyzed the usage of emojis in comments to gain insights into audience reactions. Also, it provides insights into audience emotions, enhancing understanding of sentiment and engagement in content and 
+  how frequently and common the emojis are used.
 
   ### Cleaning Repeated Values
   Removed duplicate entries to enhance the accuracy of the analysis
