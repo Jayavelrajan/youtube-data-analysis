@@ -43,13 +43,16 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   Generated word clouds to visualize the most frequently occurring words in the dataset. This provides a visually appealing representation of the most frequently occurring words in a dataset and understanding the audience mindset
 
   ### Positive Comments
+  ![image](images/positive_comments.png)
 
   ### Negative Comments
+  ![image](images/negative_comments.png)
   
 
   ### Emoji Analysis
   Identified and analyzed the usage of emojis in comments to gain insights into audience reactions. Also, it provides insights into audience emotions, enhancing understanding of sentiment and engagement in content and 
   how frequently and common the emojis are used.
+  ![image](images/emojiAnalysis.PNG)
   
   ### Exporting Data
   Exported the cleaned data into CSV, JSON, and a database for further use.
@@ -71,23 +74,34 @@ This project involves the analysis of YouTube data, focusing on various aspects 
   ### Most Liked Category
   Determined the category that received the highest number of likes, providing insights into audience preferences. What category in Youtube has more engagement? and Which has more likes with it? These questions are 
   answered using this boxplot.
+   ![image](images/mostLikedCat.png)
   
   ### Audience Engagement
-  Explored the engagement metrics to understand how viewers interacted with the content and answered using this boxplot.
+  Explored the engagement metrics to understand how viewers interacted with the content and answered using this boxplot
+  ![image](images/audEngage.png)
 
   ### Relationship between Views & Likes
   Analyzed the correlation between views and likes to uncover patterns in audience behavior is visualised in this regression plot and Heatmap
+
+  ### Regression plot
+  ![image](images/likes-views-reg.png)
+
+  ### HeatMap
+  ![image](images/likes-views-dis-heat.png)
   
   ### Trending Videos by Channel
   Identified channels with the largest number of trending videos, revealing trends in content creators' success, using this BarGraph
+   ![image](images/channelTrendingvids.PNG)
   
   ### Punctuation Analysis
   Investigated whether the presence of punctuations in titles and tags had any correlation with views, likes, dislikes, and comments using these boxplot
 
-  - Relation between Punctutations and Views
+  ### Relation between Punctutations and Views
+    ![image](images/punct-views.png)
    
-  - Relation between Punctutations and likes
-
+  ### Relation between Punctutations and likes
+    ![image](images/punct-likes.png)
+    
   # Usage
 
   Clone the repository:
